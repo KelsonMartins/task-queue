@@ -1,6 +1,6 @@
 import express from 'express';
 import http from 'http';
-import { Order } from './restaurant/models/order';
+import { Order } from './restaurant/common/models/order';
 import * as waiter from './restaurant/waiter';
 
 require('dotenv').config();

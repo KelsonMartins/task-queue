@@ -1,6 +1,6 @@
 import Queue from 'bee-queue';
 import { options } from './common/config';
-import { Order } from './models/order';
+import { Order } from './common/models/order';
 
 export const cookQueue = new Queue('cook', options);
 export const placeOrder = (order: Order) => cookQueue.createJob(order).save();

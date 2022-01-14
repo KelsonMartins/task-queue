@@ -2,6 +2,11 @@
 
 This is a sample repo on how to build a simple task queue in node.js with bee-queue and redis, in typescript.
 
+## TODO
+
+- [ ] convert to deno;
+- [ ] complete websocket implementation for chat feature;
+
 ### To run it locally
 
 ```sh
